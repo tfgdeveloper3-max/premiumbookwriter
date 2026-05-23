@@ -51,7 +51,6 @@ export default function FlashSale() {
                     }}
                 />
 
-                {/* ── Left: Text Content ── */}
                 <div className="relative z-10 flex-1 px-8 lg:px-14 py-10 flex flex-col gap-5">
                     <div>
                         <h2
@@ -74,7 +73,13 @@ export default function FlashSale() {
                                 lineHeight: 1.1,
                             }}
                         >
-                            Up to 50% Off
+                            Up to <span style={{
+                                fontFamily: "'Bebas Neue', sans-serif",
+                                fontSize: "clamp(5rem, 10vw, 5rem)",
+                                letterSpacing: "0.5px",
+                                lineHeight: 1.1,
+                                color: "#fa8c02"
+                            }}>50%</span> Off
                         </h2>
                     </div>
 
@@ -136,7 +141,6 @@ export default function FlashSale() {
                     </button>
                 </div>
 
-                {/* ── Right: Book Image — CENTERED, NOT in corner ── */}
                 <div
                     className="relative hidden md:flex items-center justify-center flex-1 h-full self-stretch pr-10 lg:pr-16"
                 >

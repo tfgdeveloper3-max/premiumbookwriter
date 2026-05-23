@@ -12,13 +12,13 @@ export default function Footer() {
                 <div className="flex flex-col gap-4">
                     <div className="flex items-center select-none">
                         <span
-                            className="text-2xl font-bold text-white"
+                            className="text-3xl font-bold text-white"
                             style={{ fontFamily: "'Bebas Neue', sans-serif", letterSpacing: "1px" }}
                         >
                             PRE
                         </span>
                         <span
-                            className="text-2xl font-bold"
+                            className="text-3xl font-bold"
                             style={{ fontFamily: "'Bebas Neue', sans-serif", letterSpacing: "1px", color: "#fa8c02" }}
                         >
                             MIUM
@@ -26,12 +26,12 @@ export default function Footer() {
                     </div>
 
                     <p
-                        className="text-sm leading-relaxed"
+                        className="text-[16px] leading-relaxed"
                         style={{
                             fontFamily: "'DM Sans', sans-serif",
                             color: "rgba(255,255,255,0.50)",
                             fontWeight: 400,
-                            maxWidth: "220px",
+                            maxWidth: "250px",
                         }}
                     >
                         Your premium destination for discovering, exploring, and enjoying the world's finest literature in a cinematic experience.
@@ -40,7 +40,7 @@ export default function Footer() {
 
                 <div className="flex flex-col gap-4">
                     <h4
-                        className="text-white font-bold text-sm"
+                        className="text-white font-bold text-lg"
                         style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700 }}
                     >
                         Shop
@@ -62,7 +62,7 @@ export default function Footer() {
 
                 <div className="flex flex-col gap-4">
                     <h4
-                        className="text-white font-bold text-sm"
+                        className="text-white font-bold text-lg"
                         style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700 }}
                     >
                         Support
@@ -84,7 +84,7 @@ export default function Footer() {
 
                 <div className="flex flex-col gap-4">
                     <h4
-                        className="text-white font-bold text-sm"
+                        className="text-white font-bold text-lg"
                         style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700 }}
                     >
                         Company
@@ -117,7 +117,7 @@ export default function Footer() {
                         fontWeight: 400,
                     }}
                 >
-                    2026 LitMart , All Copy Rights Reserved
+                    2026 PremiumBookWriter , All Copy Rights Reserved
                 </p>
             </div>
         </footer>
